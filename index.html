@@ -5,28 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>曾詩喬 名片｜弘林環境生技</title>
 <meta name="description" content="弘林環境生技股份有限公司 曾詩喬 Shih-Chiao (Jo) Tseng 名片正反面。">
-<meta name="theme-color" content="#D5DCCC">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Montserrat:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600&family=Tenor+Sans&display=swap">
 <style>
-  :root { --ground:#D5DCCC; --tint:#E9EDE3; --paper:#F8F9F5; --ink:#2E3B2A; --muted:#535E4D; }
+  :root { --ground:#FFFFFF; --tint:#F3EEE8; --paper:#F7F4F0; --ink:#101820; --ring:#31261D; --bronze:#8B634B; --muted:#5B5550;
+          --serif:'Noto Serif TC','Source Han Serif TC','Noto Serif CJK TC',serif; --optima:Optima,'Optima nova','Tenor Sans',sans-serif; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Noto Sans TC', 'Montserrat', system-ui, sans-serif; background: var(--paper); color: var(--ink);
+  body { font-family: var(--optima), var(--serif); background: var(--paper); color: var(--ink);
          min-height: 100vh; display: flex; justify-content: center; padding: 32px 16px calc(32px + env(safe-area-inset-bottom)); }
-  .en { font-family: 'Montserrat', 'Noto Sans TC', sans-serif; }
+  .en { font-family: var(--optima); }
   main { width: 100%; max-width: 720px; display: flex; flex-direction: column; gap: 24px; }
-  header h1 { font-size: 22px; font-weight: 700; letter-spacing: .08em; }
+  header h1 { font-size: 22px; font-weight: 600; letter-spacing: .08em; }
+  header h1::after { content: ""; display: block; width: 32px; height: 2px; background: var(--bronze); margin-top: 10px; }
   header p { font-size: 13px; color: var(--muted); margin-top: 4px; }
   figure { display: flex; flex-direction: column; gap: 8px; }
   figcaption { font-size: 12px; color: var(--muted); letter-spacing: .12em; }
-  figure img { width: 100%; height: auto; display: block; border-radius: 4px; box-shadow: 0 12px 30px rgba(46,59,42,.14); }
+  figure img { width: 100%; height: auto; display: block; border-radius: 4px; box-shadow: 0 12px 30px rgba(49,38,29,.14); }
   .actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .btn { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 8px 12px;
-         border-radius: 14px; text-decoration: none; font-size: 15px; font-weight: 700; text-align: center; }
-  .btn.primary { background: var(--ink); color: #fff; }
+         border-radius: 14px; text-decoration: none; font-size: 15px; font-weight: 600; text-align: center; }
+  .btn.primary { background: var(--ring); color: #fff; }
   .btn.ghost { background: var(--tint); color: var(--ink); }
+  .btn.ghost svg { color: var(--bronze); }
   .btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .btn { white-space: nowrap; font-size: 14px; gap: 6px; }
+  .btn .en { font-size: 13px; }
+  header h1 .en { font-size: 18px; letter-spacing: .02em; }
+  header p .en { white-space: nowrap; }
   @media (max-width: 380px) { .actions { grid-template-columns: minmax(0, 1fr); } }
   footer { font-size: 11px; color: var(--muted); text-align: center; }
 </style>
@@ -34,27 +41,27 @@
 <body>
 <main>
   <header>
-    <h1>曾詩喬 <span class="en" style="font-weight:500">Shih-Chiao (Jo) Tseng</span></h1>
+    <h1>曾詩喬 <span class="en" style="font-weight:400">Shih-Chiao (Jo) Tseng</span></h1>
     <p>弘林環境生技股份有限公司 創辦人暨執行長 <span class="en">· Founder &amp; CEO</span></p>
   </header>
 
   <figure>
     <figcaption>正面 <span class="en">FRONT</span></figcaption>
-    <img src="card-front.png" width="2126" height="1275" alt="名片正面：弘林環境生技股份有限公司 水滴波紋 logo，Honglin Environmental Biotech Co., Ltd.">
+    <img src="card-front.png" width="2126" height="1275" alt="名片正面：弘林環境生技股份有限公司 圓環 S 鑰匙孔 logo，Honglin Environmental Biotech Co., Ltd.">
   </figure>
 
   <figure>
     <figcaption>背面 <span class="en">BACK</span></figcaption>
-    <img src="card-back.png" width="2126" height="1275" alt="名片背面：曾詩喬 Shih-Chiao (Jo) Tseng，創辦人暨執行長 Founder & CEO，手機 +886 921 731 527，電話 +886 3 621 0237，jotseng@gmail.com，旗下寵物品牌 HLEBÉ 赫樂貝與官網 QR Code">
+    <img src="card-back.png" width="2126" height="1275" alt="名片背面：曾詩喬 Shih-Chiao (Jo) Tseng，創辦人暨執行長 Founder & CEO，手機 +886 921 731 527，電話 +886 3 621 0237，jotseng@gmail.com，地址 苗栗縣苗栗市新川里龍岡 8-1 號 1 樓，電子名片 QR Code，旗下寵物品牌 HLEBÉ 赫樂貝與官網 QR Code">
   </figure>
 
   <div class="actions">
     <a class="btn primary" href="https://jotseng0714.github.io/hlebe-card/jo-tseng.vcf" download="Shih-Chiao_Jo_Tseng.vcf">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
-      儲存聯絡人 <span class="en" style="font-weight:500">Save</span></a>
+      儲存聯絡人 <span class="en" style="font-weight:400">Save</span></a>
     <a class="btn ghost" href="https://jotseng0714.github.io/hlebe-card/">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
-      電子名片 <span class="en" style="font-weight:500">Digital Card</span></a>
+      電子名片 <span class="en" style="font-weight:400">Digital Card</span></a>
   </div>
 
   <footer class="en">© Honglin Environmental Biotech Co., Ltd.</footer>
